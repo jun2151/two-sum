@@ -9,9 +9,3 @@ def twoSum(nums: List[int], target: int) -> List[int]:
         if (val+val2 == target):
           return [idx, idx2]
     return
-
-nums = [3,2,4]
-target = 6
-
-result = twoSum(nums, target)  
-print(result)
